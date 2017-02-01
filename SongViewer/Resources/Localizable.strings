@@ -1,0 +1,18 @@
+/* 
+  Localizable.strings
+  SongViewer
+
+  Created by Михаил on 01.02.17.
+  Copyright © 2017 Михаил. All rights reserved.
+*/
+
+
+// MainScreen
+"IDS_TITLE_MAIN_SCREEN"                                ="Вся музыка";
+// Default cell object
+"IDS_MAIN_SCREEN_DEFAULT_NAME"                         ="Нет данных";
+"IDS_MAIN_SCREEN_DEFAULT_ARTIST"                       ="";
+
+
+// SongScreen
+"IDS_TITLE_SONG_SCREEN"                                ="Карточка";

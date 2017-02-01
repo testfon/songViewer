@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87469DD31E41C4C200B5310F /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 87469DD21E41C4C200B5310F /* Song.m */; };
+		87469DD61E41C8D600B5310F /* UISongScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 87469DD51E41C8D600B5310F /* UISongScreenVC.m */; };
+		87469DD91E41D55D00B5310F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87469DD81E41D55D00B5310F /* AVFoundation.framework */; };
+		87469DDC1E4219C600B5310F /* UISongScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87469DDB1E4219C600B5310F /* UISongScreenCell.m */; };
+		87FBF2D51E40F0D7002F6991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBF2D41E40F0D7002F6991 /* main.m */; };
+		87FBF2D81E40F0D7002F6991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBF2D71E40F0D7002F6991 /* AppDelegate.m */; };
+		87FBF2DE1E40F0D7002F6991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FBF2DC1E40F0D7002F6991 /* Main.storyboard */; };
+		87FBF2E01E40F0D8002F6991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87FBF2DF1E40F0D8002F6991 /* Assets.xcassets */; };
+		87FBF2F51E40FAFC002F6991 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBF2F41E40FAFC002F6991 /* NetworkManager.m */; };
+		87FBF2F81E40FB2E002F6991 /* SongManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBF2F71E40FB2E002F6991 /* SongManager.m */; };
+		87FBF2FB1E40FD94002F6991 /* SongDSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBF2FA1E40FD94002F6991 /* SongDSerializer.m */; };
+		87FBF3031E41315C002F6991 /* UIMainScreenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBF3021E41315C002F6991 /* UIMainScreenVC.m */; };
+		87FBF3061E41320A002F6991 /* UIMainScreenCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87FBF3051E41320A002F6991 /* UIMainScreenCell.m */; };
+		87FBF3091E4144BA002F6991 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 87FBF3081E4144BA002F6991 /* Localizable.strings */; };
+		87FBF30B1E41551F002F6991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87FBF30A1E41551F002F6991 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		87469DD11E41C4C200B5310F /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Song.h; path = SongViewer/Model/Song.h; sourceTree = SOURCE_ROOT; };
+		87469DD21E41C4C200B5310F /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Song.m; path = SongViewer/Model/Song.m; sourceTree = SOURCE_ROOT; };
+		87469DD41E41C8D600B5310F /* UISongScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISongScreenVC.h; sourceTree = "<group>"; };
+		87469DD51E41C8D600B5310F /* UISongScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISongScreenVC.m; sourceTree = "<group>"; };
+		87469DD81E41D55D00B5310F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		87469DDA1E4219C600B5310F /* UISongScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISongScreenCell.h; sourceTree = "<group>"; };
+		87469DDB1E4219C600B5310F /* UISongScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UISongScreenCell.m; sourceTree = "<group>"; };
+		87FBF2D01E40F0D7002F6991 /* SongViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SongViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87FBF2D41E40F0D7002F6991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87FBF2D61E40F0D7002F6991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87FBF2D71E40F0D7002F6991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87FBF2DD1E40F0D7002F6991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87FBF2DF1E40F0D8002F6991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87FBF2E41E40F0D8002F6991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87FBF2F31E40FAFC002F6991 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		87FBF2F41E40FAFC002F6991 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		87FBF2F61E40FB2E002F6991 /* SongManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongManager.h; sourceTree = "<group>"; };
+		87FBF2F71E40FB2E002F6991 /* SongManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SongManager.m; sourceTree = "<group>"; usesTabs = 0; };
+		87FBF2F91E40FD94002F6991 /* SongDSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SongDSerializer.h; sourceTree = "<group>"; };
+		87FBF2FA1E40FD94002F6991 /* SongDSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SongDSerializer.m; sourceTree = "<group>"; };
+		87FBF2FD1E411903002F6991 /* CommonConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonConstants.h; sourceTree = "<group>"; };
+		87FBF3011E41315C002F6991 /* UIMainScreenVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMainScreenVC.h; sourceTree = "<group>"; };
+		87FBF3021E41315C002F6991 /* UIMainScreenVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMainScreenVC.m; sourceTree = "<group>"; };
+		87FBF3041E41320A002F6991 /* UIMainScreenCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMainScreenCell.h; sourceTree = "<group>"; };
+		87FBF3051E41320A002F6991 /* UIMainScreenCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMainScreenCell.m; sourceTree = "<group>"; };
+		87FBF3081E4144BA002F6991 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		87FBF30A1E41551F002F6991 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87FBF2CD1E40F0D7002F6991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87469DD91E41D55D00B5310F /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87469DD71E41D55D00B5310F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				87469DD81E41D55D00B5310F /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87FBF2C71E40F0D7002F6991 = {
+			isa = PBXGroup;
+			children = (
+				87FBF2D21E40F0D7002F6991 /* SongViewer */,
+				87FBF2D11E40F0D7002F6991 /* Products */,
+				87469DD71E41D55D00B5310F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87FBF2D11E40F0D7002F6991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF2D01E40F0D7002F6991 /* SongViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87FBF2D21E40F0D7002F6991 /* SongViewer */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF3071E41449D002F6991 /* Resources */,
+				87FBF2FE1E413005002F6991 /* UI */,
+				87FBF2FC1E4118E3002F6991 /* Common */,
+				87FBF2EC1E40F7C8002F6991 /* Model */,
+				87FBF2D61E40F0D7002F6991 /* AppDelegate.h */,
+				87FBF2D71E40F0D7002F6991 /* AppDelegate.m */,
+				87FBF2DC1E40F0D7002F6991 /* Main.storyboard */,
+				87FBF30A1E41551F002F6991 /* LaunchScreen.storyboard */,
+				87FBF2DF1E40F0D8002F6991 /* Assets.xcassets */,
+				87FBF2E41E40F0D8002F6991 /* Info.plist */,
+				87FBF2D31E40F0D7002F6991 /* Supporting Files */,
+			);
+			path = SongViewer;
+			sourceTree = "<group>";
+		};
+		87FBF2D31E40F0D7002F6991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF2D41E40F0D7002F6991 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87FBF2EC1E40F7C8002F6991 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF2F21E40FAB9002F6991 /* Serializers */,
+				87FBF2F11E40FAB1002F6991 /* Managers */,
+				87FBF2F01E40FA09002F6991 /* DataModel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		87FBF2F01E40FA09002F6991 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				87469DD11E41C4C200B5310F /* Song.h */,
+				87469DD21E41C4C200B5310F /* Song.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		87FBF2F11E40FAB1002F6991 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF2F31E40FAFC002F6991 /* NetworkManager.h */,
+				87FBF2F41E40FAFC002F6991 /* NetworkManager.m */,
+				87FBF2F61E40FB2E002F6991 /* SongManager.h */,
+				87FBF2F71E40FB2E002F6991 /* SongManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		87FBF2F21E40FAB9002F6991 /* Serializers */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF2F91E40FD94002F6991 /* SongDSerializer.h */,
+				87FBF2FA1E40FD94002F6991 /* SongDSerializer.m */,
+			);
+			path = Serializers;
+			sourceTree = "<group>";
+		};
+		87FBF2FC1E4118E3002F6991 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF2FD1E411903002F6991 /* CommonConstants.h */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		87FBF2FE1E413005002F6991 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF2FF1E413005002F6991 /* Cells */,
+				87FBF3001E413005002F6991 /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		87FBF2FF1E413005002F6991 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF3041E41320A002F6991 /* UIMainScreenCell.h */,
+				87FBF3051E41320A002F6991 /* UIMainScreenCell.m */,
+				87469DDA1E4219C600B5310F /* UISongScreenCell.h */,
+				87469DDB1E4219C600B5310F /* UISongScreenCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		87FBF3001E413005002F6991 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF3011E41315C002F6991 /* UIMainScreenVC.h */,
+				87FBF3021E41315C002F6991 /* UIMainScreenVC.m */,
+				87469DD41E41C8D600B5310F /* UISongScreenVC.h */,
+				87469DD51E41C8D600B5310F /* UISongScreenVC.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		87FBF3071E41449D002F6991 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				87FBF3081E4144BA002F6991 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87FBF2CF1E40F0D7002F6991 /* SongViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87FBF2E71E40F0D8002F6991 /* Build configuration list for PBXNativeTarget "SongViewer" */;
+			buildPhases = (
+				87FBF2CC1E40F0D7002F6991 /* Sources */,
+				87FBF2CD1E40F0D7002F6991 /* Frameworks */,
+				87FBF2CE1E40F0D7002F6991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SongViewer;
+			productName = SongViewer;
+			productReference = 87FBF2D01E40F0D7002F6991 /* SongViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87FBF2C81E40F0D7002F6991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Михаил";
+				TargetAttributes = {
+					87FBF2CF1E40F0D7002F6991 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 242JUJ7G6T;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87FBF2CB1E40F0D7002F6991 /* Build configuration list for PBXProject "SongViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87FBF2C71E40F0D7002F6991;
+			productRefGroup = 87FBF2D11E40F0D7002F6991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87FBF2CF1E40F0D7002F6991 /* SongViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87FBF2CE1E40F0D7002F6991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FBF3091E4144BA002F6991 /* Localizable.strings in Resources */,
+				87FBF2E01E40F0D8002F6991 /* Assets.xcassets in Resources */,
+				87FBF30B1E41551F002F6991 /* LaunchScreen.storyboard in Resources */,
+				87FBF2DE1E40F0D7002F6991 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87FBF2CC1E40F0D7002F6991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87FBF3061E41320A002F6991 /* UIMainScreenCell.m in Sources */,
+				87FBF3031E41315C002F6991 /* UIMainScreenVC.m in Sources */,
+				87FBF2F81E40FB2E002F6991 /* SongManager.m in Sources */,
+				87FBF2D81E40F0D7002F6991 /* AppDelegate.m in Sources */,
+				87469DD61E41C8D600B5310F /* UISongScreenVC.m in Sources */,
+				87FBF2F51E40FAFC002F6991 /* NetworkManager.m in Sources */,
+				87469DDC1E4219C600B5310F /* UISongScreenCell.m in Sources */,
+				87469DD31E41C4C200B5310F /* Song.m in Sources */,
+				87FBF2D51E40F0D7002F6991 /* main.m in Sources */,
+				87FBF2FB1E40FD94002F6991 /* SongDSerializer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87FBF2DC1E40F0D7002F6991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87FBF2DD1E40F0D7002F6991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87FBF2E51E40F0D8002F6991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87FBF2E61E40F0D8002F6991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87FBF2E81E40F0D8002F6991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 242JUJ7G6T;
+				INFOPLIST_FILE = SongViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.SongViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87FBF2E91E40F0D8002F6991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 242JUJ7G6T;
+				INFOPLIST_FILE = SongViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.SongViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87FBF2CB1E40F0D7002F6991 /* Build configuration list for PBXProject "SongViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FBF2E51E40F0D8002F6991 /* Debug */,
+				87FBF2E61E40F0D8002F6991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FBF2E71E40F0D8002F6991 /* Build configuration list for PBXNativeTarget "SongViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87FBF2E81E40F0D8002F6991 /* Debug */,
+				87FBF2E91E40F0D8002F6991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87FBF2C81E40F0D7002F6991 /* Project object */;
+}
